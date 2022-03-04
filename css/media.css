@@ -1,0 +1,382 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .container {
+    padding: 0 80px;
+}
+
+    /*header*/
+
+   .logo, nav {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+    nav ul li a {
+    font-size: 16px;
+    padding: 10px 7px;
+}
+
+/*banner-section*/
+   .banner-section .container-sm {
+    max-width: 438px;
+}
+    .banner-section {
+    padding: 30px 18px;
+    padding-bottom: 15px;
+}
+    .banner h1 {
+    font-size: 27px;
+}
+    .banner p {
+    margin: 18px 0;
+    font-size: 15px;
+}
+    .banner img {
+    width: 246px;
+}
+
+
+/*feature-section*/
+.feature-section .container-sm {
+    max-width: 667px;
+}
+.feature-section .flex{
+    justify-content: center;
+
+}
+.col-2 {
+    
+    flex-basis: 70%;
+    max-width: 70%;
+    padding: 2px;
+
+}
+.text-right{
+    text-align: center;
+}
+    .feature-section h2 {
+    font-size: 27px;
+}
+    .feature-section p {
+    font-size: 15px;
+    margin: 11px 0;
+}
+    .feature-section h1 {
+    font-size: 27px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*service-section*/
+.service-section .container {
+    padding: 0 8px;
+}
+    .service-section {
+        padding: 20px 0;
+        text-align: center;
+}
+.service-section .flex{
+    justify-content: center;
+
+}
+.col-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 11px;
+}
+    .service {
+    padding: 20px 15px;
+}
+    .service img {
+    max-width: 170px;
+    height: 137px;
+}
+.service h3 {
+    font-size: 16px;
+    margin: 3px 0;
+    text-align: center;
+    
+}
+.service p {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/*footer*/
+.copyright p {
+    padding: 0 10px;
+}
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .container {
+    padding: 0 80px;
+}
+
+    /*header*/
+    nav ul li a {
+    font-size: 16px;
+    padding: 10px 7px;
+}
+
+/*banner-section*/
+   .banner-section .container-sm {
+    max-width: 438px;
+}
+    .banner-section {
+    /*padding: 30px 0;*/
+        padding-bottom: 15px;
+}
+    .banner h1 {
+    font-size: 32px;
+}
+    .banner p {
+    margin: 18px 0;
+        font-size: 16px;
+}
+    .banner img {
+    width: 400px;
+}
+
+
+/*feature-section*/
+.feature-section .container-sm {
+    max-width: 667px;
+}
+.feature-section .flex{
+    justify-content: center;
+
+}
+.col-2 {
+    
+    flex-basis: 70%;
+    max-width: 70%;
+    padding: 2px;
+
+}
+.text-right{
+    text-align: center;
+}
+    .feature-section h2 {
+    font-size: 32px;
+}
+    .feature-section p {
+    font-size: 16px;
+    margin: 11px 0;
+}
+    .feature-section h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*service-section*/
+.container {
+    padding: 0 57px;
+}
+    .service-section {
+        padding: 20px 0;
+}
+.service-section .flex{
+    justify-content: center;
+
+}
+.col-3 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 11px;
+}
+    .service {
+    padding: 20px 15px;
+}
+    .service img {
+    max-width: 170px;
+    height: 137px;
+}
+.service h3 {
+    font-size: 16px;
+    margin: 3px 0;
+}
+.service p {
+    font-size: 15px;
+}
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.container {
+    padding: 0 80px;
+}
+
+    /*header*/
+    nav ul li a {
+    font-size: 16px;
+    padding: 10px 7px;
+}
+
+/*banner-section*/
+    .container-sm {
+    max-width: 622px;
+}
+    .banner-section {
+    padding: 30px 0;
+}
+    .banner h1 {
+    font-size: 32px;
+}
+    .banner p {
+    margin: 18px 0;
+        font-size: 16px;
+}
+    .banner img {
+    width: 500px;
+}
+
+
+/*feature-section*/
+.container-sm {
+    max-width: 667px;
+}
+    .feature-section h2 {
+    font-size: 32px;
+}
+    .feature-section p {
+    font-size: 16px;
+    margin: 11px 0;
+}
+    .feature-section h1 {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+
+/*service-section*/
+.container {
+    padding: 0 57px;
+}
+    .service-section {
+        padding: 20px 0;
+}
+.col-3 {
+    padding: 7px;
+}
+    .service {
+    padding: 20px 15px;
+}
+    .service img {
+    max-width: 170px;
+    height: 137px;
+}
+.service h3 {
+    font-size: 16px;
+    margin: 3px 0;
+}
+.service p {
+    font-size: 15px;
+}
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*banner-section*/
+    .container-sm {
+    max-width: 676px;
+}
+    .banner-section {
+    padding: 40px 0;
+}
+    .banner h1 {
+    font-size: 35px;
+}
+    .banner p {
+    margin: 18px 0;
+        font-size: 16px;
+}
+    .banner img {
+    width: 534px;
+}
+
+
+/*feature-section*/
+    .feature-section h2 {
+    font-size: 35px;
+}
+    .feature-section p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+    .feature-section h1 {
+    font-size: 35px;
+}
+
+
+/*service-section*/
+    .service-section {
+        padding: 20px 0;
+}
+    .service {
+    padding: 28px 15px;
+}
+    .service img {
+    max-width: 170px;
+    height: 159px
+}
+.service h3 {
+    font-size: 17px;
+    margin: 3px 0;
+}
+.service p {
+    font-size: 15px;
+}
+ }
+
+ /* Extra Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+
+/*banner-section*/
+    .banner h1 {
+    font-size: 40px;
+}
+    .banner img {
+        width: 590px;
+}
+
+
+/*feature-section*/
+    .feature-section h2 {
+    font-size: 40px;
+}
+    .feature-section p {
+     margin: 15px 0;
+}
+    .feature-section h1 {
+    font-size: 40px;
+}
+
+
+/*service-section*/
+    .service-section {
+        padding: 20px 0;
+}
+    .service {
+        padding: 65px 30px;
+        }
+    .service img {
+        max-width: 251px;
+        }
+
+ }
+
+ /*Extra extra large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }

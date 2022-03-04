@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Shippori+Antique+B1&display=swap');
+
+:root{
+    --blue:#008AFF ;
+    --navy-blue:#3F3C55 ;
+    --red:#DB5C60 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Shippori Antique B1', sans-serif; */
+}
+
+
+
+
+/*header*/
+header{
+    padding: 15px 0;
+    border-bottom: 2px solid #3f3c551f;
+}
+.container{
+    padding: 0 100px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    /* font-weight: 500; */
+    text-transform: capitalize;
+    transition: .3s;
+
+}
+nav ul li a:hover{
+    color: var(--blue);
+}
+
+
+
+
+/*banner*/
+.banner-section{
+    padding: 50px 0;
+}
+.container-sm{
+    max-width: 727px;
+    margin: auto;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 43px;
+    font-weight: 900;
+    color: var(--navy-blue);
+    font-family: 'Shippori Antique B1', sans-serif;
+    line-height: 1.2;
+}
+.banner h1 strong{
+    color: var(--blue);
+    display: block;
+}
+.banner p{
+    color: var(--navy-blue);
+    margin: 20px 0;
+}
+.banner img{
+    width: 680px;
+}
+
+
+
+
+
+/*feature*/
+.feature-section{
+    padding: 30px 0;
+}
+.col-2{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+.feature-section h2{
+    font-size: 43px;
+    font-weight: 900;
+    color: var(--navy-blue);
+    font-family: 'Shippori Antique B1', sans-serif;
+    line-height: 1.1;
+    color: var(--red);
+}
+.feature-section p{
+    color: var(--navy-blue);
+    margin: 20px 0;
+}
+.feature-section h1{
+    font-size: 43px;
+    font-weight: 900;
+    color: var(--navy-blue);
+    font-family: 'Shippori Antique B1', sans-serif;
+    line-height: 1.1;
+}
+.text-right{
+    text-align: right;
+}
+
+
+
+
+
+
+/*service*/
+.service-section{
+    padding: 50px 0;
+
+}
+.col-3{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.service{
+    padding: 80px 30px;
+    text-align: center;
+}
+.service img{
+    max-width: 289px;
+    height: 175px;
+}
+.service h3{
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.service p{
+    text-align: left;
+    color: var(--navy-blue);
+}
+.color-1{
+    background-color: #FDEAEC;
+}
+.color-2{
+    background-color: #EAF9F4;
+}
+.color-3{
+    background-color: #FFF8E8;
+}
+
+
+
+
+/*footer*/
+footer{
+    background-color: var(--blue);
+    padding: 30px 0;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    color: #ffffffcc;
+}
+.copyright p a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+
